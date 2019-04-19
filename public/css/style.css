@@ -177,6 +177,9 @@ border: none;
     h2 {
         font-size: 30px;
     }
+    .bg-opacity{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
 
 
@@ -221,6 +224,9 @@ border: none;
         height: 1px;
         position: absolute;
     }
+    .bg-opacity{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
 
 @media (max-width:991px) {
@@ -229,6 +235,9 @@ border: none;
     }
     .navbar-nav .nav-item {
         text-align: center;
+    }
+    .bg-opacity{
+        background-color: rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -243,8 +252,7 @@ header {
 }
 
 .bg-opacity{
-    
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .bg-gradient {
@@ -269,6 +277,12 @@ header {
     .img-holder {
         padding-bottom: 50%;
     }
+    .bg-opacity{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .bg-opacity{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
 
 @media (max-width:767px) {
@@ -277,6 +291,9 @@ header {
     }
     .img-holder {
         padding-bottom: 100%;
+    }
+    .bg-opacity{
+        background-color: rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -305,6 +322,9 @@ header {
     }
     [class^="col-"]:last-child .card.features {
         margin-bottom: 0;
+    }
+    .bg-opacity{
+        background-color: rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -340,6 +360,9 @@ header {
         font-size: 28px;
         line-height: 50px;
     }
+    .bg-opacity{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
 
 .ui-steps li:hover .circle-icon {
@@ -368,6 +391,9 @@ header {
     .perspective-phone {
         margin-top: -150px;
     }
+    .bg-opacity{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
 
 
@@ -385,6 +411,9 @@ header {
 @media (max-width:992px) {
     .tab-content {
         padding: 1.5rem;
+    }
+    .bg-opacity{
+        background-color: rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -573,9 +602,11 @@ ul{
 @media(min-width:700px){
   .wrapperr{
     display: grid;
-  
   }
 
+  .bg-opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
   .wrapperr > *{
     padding:2em;
   }
