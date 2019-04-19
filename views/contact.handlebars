@@ -1,13 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>MobApp - App Landing Page Template</title>
+    <title>Безкоштовне навчання в Словаччині</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Mobland - Mobile App Landing Page Template">
-    <meta name="keywords" content="HTML5, bootstrap, mobile, app, landing, ios, android, responsive">
-
+    <link rel="icon" href="../public/images/capp.ico">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="../public/css/bootstrap.min.css">
@@ -20,20 +18,21 @@
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
 
-    <div class="nav-menu fixed-top">
+    <div class="nav-menu fixed-top bg-gradient">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html"><img src="../public/images/logo.png" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        <a class="navbar-brand" href="index.html"><p class="logo">SOLERAL</p></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#gallery">GALLERY</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#pricing">PRICING</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>
-                                <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li>
+                                <li class="nav-item"> <a class="nav-link active" href="#home">Головна <span class="sr-only">(current)</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#features">Про нас</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#tuke">ТУКЕ</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#upjs">УПЙШ</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#faq">Питання</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#contact">Контакт</a> </li>
+                                {{!-- <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li> --}}
                             </ul>
                         </div>
                     </nav>
@@ -43,179 +42,261 @@
     </div>
 
 
-    <header class="bg-gradient" id="home">
+    <header id="home">
+        <div class="bg-opacity">
+        <div class="parallax-window " data-parallax="scroll" data-image-src="../public/images/man.jpg">
         <div class="container mt-5">
-            <h1>Mobile App Landing Page Template</h1>
-            <p class="tagline">The one and only solution for any kind of mobila app landing needs. Just change the screenshots and texts and you are good to go. </p>
+            <h1>Навчання в Словаччині</h1>
+            <p class="tagline">Безкоштовне навчання в Словаччині, без вступних іспитів і без врахування ЗНО. Твій найкращий вибір!</p>
         </div>
-        <div class="img-holder mt-3"><img src="../public/images/iphonex.png" alt="phone" class="img-fluid"></div>
+        <div class="img-holder mt-3">
+            {{!-- <img src="../public/images/iphonex.png" alt="phone" class="img-fluid"> --}}
+        </div>
+        </div>
+        </div>
     </header>
-
-    <div class="client-logos my-5">
-        <div class="container text-center">
-            <img src="../public/images/client-logos.png" alt="client logos" class="img-fluid">
-        </div>
-    </div>
-
-    <div class="section light-bg" id="features">
-
-
-        <div class="container">
-
-            <div class="section-title">
-                <small>HIGHLIGHTS</small>
-                <h3>Features you love</h3>
-            </div>
-
-
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">Simple</h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-settings gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">Customize</h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-lock gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">Secure</h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-
-    </div>
   
     <div class="section">
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-6">
-                    <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
-                    <h2>Discover our App</h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero maxime ratione </p>
-                    <a href="#" class="btn btn-primary">Read more</a>
+                <div class="col-lg-6">
+                <img src="../public/images/DSCF9430.jpg" class="img-fluid"> 
+            </div>
+                <div class="col-lg-6" id="features">
+                    <h2>Найкращі університети Словаччини</h2>
+                    <p class="">Наша компанія займається поступленням в Словацькі ВНЗ
+                         від А до Я. Ми для вас підготуємо всі необхідні документи для вступу у 
+                         ВНЗ, зробимо карточку ППП(ВНЖ), заселимо в гуртожиток,
+                          і дамо відповідь на всі цікаві вам запитання.
+                         Найкращими університетами є технічний університет в місті Кошице(ТУКЕ) 
+                         і університет Павла Йозефа Шафарика(УПЙШ). 
+                         За нашими плечами вже більше десятків щасливих студентів, які навчаються в 
+                         університетах Словаччини. Перевагами навчання в Словаччині є: </p>
+                    <div>
+                    <p>-Прийняття без вступних іспитів та ЗНО</p>
+                    <p>-Повністю БЕЗКОШТОВНЕ навчання</p>
+                    <p>-Можливе отримання великої стипендії</p>
+                    <p>-Недороге проживання в Словаччині</p>
+                    <p>-Диплом Європейського взірця</p>
+                    <p>-БЕЗКОШТОВНЕ пересування на поїздах</p>
+                    </div>
+                    
+                    
+                    <a href="#protuke" class="btn btn-primary">Дізнатися більше</a>
                 </div>
+                
             </div>
-            <div class="perspective-phone">
-                <img src="../public/images/perspective.png" alt="perspective phone" class="img-fluid">
-            </div>
+            
         </div>
 
     </div>
 
-    <div class="section light-bg">
+     <div class="section" id="protuke">
+        <div class="bg-opacity">
+            <div class="parallax-window " data-parallax="scroll" data-image-src="../public/images/kniznica_tuke.png">
+                <div class="container">
+                    <div class="row">
+                        <div class=" text-center">
+                        <div ><img style="width: 100px;" src="../public/images/Logo_TUKE.gif" alt=""></div>
+                        <h2 class="tagline">Технічний Університет</h2>
+                        <p class="container opacitytext">Сьогодні на дев’яти факультетах ТУКЕ навчається загалом 9714 студентів. 
+                            Серед них на денній формі навчання – 8437 студентів (5050 за освітньо-кваліфікаційним 
+                            рівнем бакалавр, 3017 за освітньо-кваліфікаційним рівнем магістр або інженер, 370 аспірантів). 
+                            Професорсько-викладацький склад університету складається з 700 професорів, доцентів і асистентів, 
+                            такою самою є кількість наукових працівників і технічно-господарського складу.
+
+                            Технічний університет у Кошицях забезпечує широкий спектр освітніх потреб не лише для регіону 
+                            Східної Словаччини, за багатьма напрямками – це єдиний науково-дослідний і освітній заклад не тільки 
+                            у Словаччині, а й у Центральній Європі. Університет тісно співпрацює з іншими університетами, промисловими 
+                            підприємствами у регіоні й Словаччині загалом.</p>
+                        <a href="#tuke" class="btn btn-primary">Дізнатися більше</a></div>
+                </div>
+            </div>
+
+                </div>
+            
+        </div>
+        </div>
+    </div>
+
+    <div class="section light-bg" id="tuke">
         <div class="container">
             <div class="section-title">
-                <small>FEATURES</small>
-                <h3>Do more with our app</h3>
+                <h3>Факультети Технічного університету</h3>
             </div>
 
             <ul class="nav nav-tabs nav-justified" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#communication">Communication</a>
+                    <a class="nav-link active" data-toggle="tab" href="#eco">Екологічний</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#schedule">Scheduling</a>
+                    <a class="nav-link" data-toggle="tab" href="#metal">Металургійний</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#messages">Messages</a>
+                    <a class="nav-link" data-toggle="tab" href="#mashin">Машинобудування</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#livechat">Live Chat</a>
+                    <a class="nav-link" data-toggle="tab" href="#it">Інформатичний</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#budivel">Будівельний</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#ekonom">Економічний</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#vyrob">Виробничий</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#art">Мистецтв</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#avia">Авіаційний</a>
                 </li>
             </ul>
             <div class="tab-content">
-                <div class="tab-pane fade show active" id="communication">
+                <div class="tab-pane fade show active" id="eco">
                     <div class="d-flex flex-column flex-lg-row">
-                        <img src="../public/images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <img src="../public/images/fberg.gif" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
                         <div>
-
-                            <h2>Communicate with ease</h2>
-                            <p class="lead">Uniquely underwhelm premium outsourcing with proactive leadership skills. </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla
-                                congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                            </p>
-                            <p> malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor
-                                sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
-                            </p>
+                            <h4> ФАКУЛЬТЕТ ГІРНИЧОЇ СПРАВИ, ЕКОЛОГІЇ, УПРАВЛІННЯ ПРОЦЕСАМИ ТА ГЕОТЕХНОЛОГІЇ (FBERG) </h4>
+                            <p> 1. Автоматизація і управління процесами видобутку і переробки сировини</p>
+                            <p> 2. Гірнича справа та геотехніка</p>
+                            <p> 3. Транспортна логістика підприємства</p>
+                            <p> 4. Геодезія та географічні інформаційні системи</p>
+                            <p> 5. Геодезія та земельний кадастр</p>
+                            <p> 6. Геологія та регіональний розвиток</p>
+                            <p> 7. Геодослідження</p>
+                            <p> 8. Геотуризм</p>
+                            <p> 9. Управління водними ресурсами в комунальному секторі</p>
+                            <p> 10. Інформатизація процесів видобутку і переробки сировини</p>
+                            <p> 11. Управління процесами</p>
+                            <p> 12. Управління земельними ресурсами</p>
+                            <p> 13. Мінералологія та екологічні технології</p>
+                            <p> 14. Охорона навколишнього середовища та екологічні технології сировини</p>
+                            <p> 15. Промислова логістика</p>
+                            <p> 16. Управління якістю процесів видобутку та переробки сировин</p>
+                            <p> 17. Технології в газовій та нафтовій промисловості</p>
+                            <p> 18. Використання альтернативних джерел енергії</p>
+                            <p> 19. Рятувальна та пожежна техніка</p>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="schedule">
+                <div class="tab-pane fade" id="metal">
                     <div class="d-flex flex-column flex-lg-row">
+                        <img src="../public/images/hf.bmp" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
                         <div>
-                            <h2>Scheduling when you want</h2>
-                            <p class="lead">Uniquely underwhelm premium outsourcing with proactive leadership skills. </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla
-                                congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                            </p>
-                            <p> malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor
-                                sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
-                            </p>
+                            
+                            <h4>МЕТАЛУРГІЙНИЙ ФАКУЛЬТЕТ (HF)</h4>
+                            <p>1. Металургія</p>
+                            <p>2. Матеріали	</p>
+                            <p>3. Переробка та повторне використання відходів</p>	
+                            <p>4. Теплова техніка та газифікація</p>
+                            <p>5. Інтегровані системи управління</p>
                         </div>
-                        <img src="../public/images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        
                     </div>
                 </div>
-                <div class="tab-pane fade" id="messages">
+                <div class="tab-pane fade" id="mashin">
                     <div class="d-flex flex-column flex-lg-row">
-                        <img src="../public/images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <img src="../public/images/sjf.png" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
                         <div>
-                            <h2>Realtime Messaging service</h2>
-                            <p class="lead">Uniquely underwhelm premium outsourcing with proactive leadership skills. </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla
-                                congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                            </p>
-                            <p> malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor
-                                sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
-                            </p>
+                            <h4>ФАКУЛЬТЕТ МАШИНОБУДУВАННЯ (SJF)</h4>
+                            <p>1. Автомобільне виробництво</p>
+                            <p>2. Менеджмент технічних та енвіроментальних ризиків в машинобудуванні</p>
+                            <p>3. Мехатроніка</p>
+                            <p>4. Комп'ютерна підтримка машинобудівного виробництва</p>
+                            <p>5. Промислова інженерія</p>
+                            <p>6. Протези та ортези</p>
+                            <p>7. Управління та економіка підприємства</p>
+                            <p>8. Машонобудування</p>
+                            <p>9. Техніка захисту навколишнього середовища</p>
+                            <p>10. Технології, управління та іновації в машинобудуванні</p>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="livechat">
+                <div class="tab-pane fade" id="it">
                     <div class="d-flex flex-column flex-lg-row">
+                        <img src="../public/images/fei.jpg" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
                         <div>
-                            <h2>Live chat when you needed</h2>
-                            <p class="lead">Uniquely underwhelm premium outsourcing with proactive leadership skills. </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla
-                                congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                            </p>
-                            <p> malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor
-                                sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
-                            </p>
+                            <h4>ФАКУЛЬТЕТ ЕЛЕКТРОТЕХНІКИ ТА ІНФОРМАТИКИ (FEI)</h4>
+                            <p>1. Автоматизовані електротехнічні системи</p>
+                            <p>2. Електроенергетика</p>
+                            <p>3. Фізичне інженерство новітніх матеріалів</p>
+                            <p>4. Економічна інформатика</p>
+                            <p>5. Інформатика</p>
+                            <p>6. Новітні технології (системи)</p>
+                            <p>7. Комп’ютерне моделювання</p>
+                            <p>8. Комп’ютерні мережі</p>
+                            <p>9. Промислова електротехніка</p>
+                            <p>10. Технології в автомобільній електроніці</p>
                         </div>
-                        <img src="../public/images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
-                    </div>
+                        </div>
+                </div>
+                <div class="tab-pane fade" id="budivel">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="../public/images/Logo_SvF_podla-statutu.jpg" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h4>БУДІВЕЛЬНИЙ ФАКУЛЬТЕТ (SvF)</h4>
+                            <p>1. Наземне будівництво та архітектура</p>
+                            <p>2. Інженерні конструкції та дорожнє будівництво</p>
+                            <p>3. Реалізація дорожгього будівництва</p>
+                            <p>4. Технологія та менеджмент в будівництві</p>
+                            <p>5. Споруди енвіроментального призначення</p>
+                        </div>
+                        </div>
+                </div>
+                <div class="tab-pane fade" id="ekonom">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="../public/images/logo_ekf_eng.gif" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h4>ЕКОНОМІЧНИЙ ФАКУЛЬТЕТ (EkF)</h4>
+                            <p>1. Фінанси, банківська справа та інвестиції</p>
+                            <p>2. Економіка та менеджмент державного кправління</p>
+                        </div>
+                        </div>
+                </div>
+                <div class="tab-pane fade" id="vyrob">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="../public/images/FVT.png" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h4>ФАКУЛЬТЕТ ВИРОБНИЧИХ ТЕХНОЛОГІЙ В МІСТІ ПРЯШІВ (FVT)</h4>
+                            <p>1. Управління виробництвом</p>
+                            <p>2. Моніторинг та діагностика технічних пристроїв</p>
+                            <p>3. Відновлювані джерела енергії</p>
+                            <p>4. Комп’ютерна підтримка виробничих технологій</p>
+                            <p>5. Комп’ютерне проектування технічного обладнання</p>
+                            <p>6. Прогресивні технології</p>
+                            <p>7. Технології автомобільного виробництва</p>
+                            <p>8. Промисловий менеджмент</p>
+                        </div>
+                        </div>
+                </div>
+                <div class="tab-pane fade" id="art">
+                    <div class="d-flex flex-column flex-lg-row">
+                       <img src="../public/images/1.jpg" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h4>ФАКУЛЬТЕТ МИСТЕЦТВ (FU)</h4>
+                            <p>1. Архітектура і урбанізм</p>
+                            <p>2. Дизайн</p>
+                            <p>3. Відновлювані джерела енергії</p>
+                        </div>
+                        </div>
+                </div>
+                <div class="tab-pane fade" id="avia">
+                    <div class="d-flex flex-column flex-lg-row">
+                       <img src="../public/images/le.jpg" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h4>АВІАЦІЙНИЙ ФАКУЛЬТЕТ</h4>
+                            <p>1. Керування авіаційних перевезень</p>
+                            <p>2. Професійний пілот</p>
+                            <p>3. Працівник керування авіатрафіком</p>
+                            <p>4. Експлуатація літаків</p>
+                            <p>5. Системи авіоніки</p>
+                        </div>
+                       </div>
                 </div>
             </div>
 
@@ -224,56 +305,238 @@
     </div>
 
     <div class="section">
-
+ <div class="bg-opacity">
+            <div class="parallax-window " data-parallax="scroll" data-image-src="../public/images/upjs.jpg">
+               
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="../public/images/dualphone.png" alt="dual phone" class="img-fluid">
-                </div>
-                <div class="col-md-6 d-flex align-items-center">
-                    <div>
-                        <div class="box-icon"><span class="ti-rocket gradient-fill ti-3x"></span></div>
-                        <h2>Launch your App</h2>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero maxime ratione </p>
-                        <a href="#" class="btn btn-primary">Read more</a></div>
+                <div class="col-md-12 d-flex align-items-center">
+                    <div class="text-center">
+                        <div ><img style="width: 100px;" src="../public/images/upjslogo.png" alt=""></div>
+                        <h2 class="opacitytext ">Університет Шафарика</h2>
+                        <p class="mb-4 opacitytext">Університет ім. Павла Йозефа Шафарика в Кошицях (далі УПЙШ) належить до провідних навчальних закладів, 
+                            що надають комплексну вищу освіту в галузі медичних, природничих, гуманітарних, юридичних, суспільних і поведінкових
+                             наук. Університет забезпечує навчання за трьома освітніми рівнями – бакалаврський і магістерський ступені, навчання
+                              в аспірантурі. За даними результатів останньої комплексної акредитації 2015 року УПЙШ належить до чотирьох найкращих
+                               вищих навчальних закладів у Словаччині. У рейтингу факультетів словацьких вишів, складеному Академічною агенцією ранжування
+                                і рейтингу (ARRA) у 2015 р., чільні щаблі займають факультети УПЙШ в Кошицях. Згідно з даними рейтингу міжнародної наукової
+                                 ефективності URAP 2015-2016 (University Ranking by Academic Performance) Університет посів друге місце у Словаччині в базі
+                                  даних «Web of Science» (WoS).</p>
+                        <a href="#upjs" class=" btn btn-primary">Дізнатися більше</a></div>
                 </div>
             </div>
 
         </div>
+</div>
+ </div>
+    </div>
 
+ <div class="section light-bg" id="upjs">
+        <div class="container">
+            <div class="section-title">
+                <h3>Факультети університету Шафарика</h3>
+            </div>
+
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#medic">Медичний</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#yurid">Юридичний</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#prirod">Природничий</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#upravl">Управління</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#filosof">Філософський</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#sport">Спортивний</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="medic">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="../public/images/lekarska.jpg" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h4>МЕДИЧНИЙ ФАКУЛЬТЕТ</h4>
+                            <p>1.Лікувальна справа</p>
+                            <p>2.Стоматологія</p>
+                            <p>3.Фізіотерапія</p>
+                            <p>4.Сестринська справа</p>
+                            <p>5.Охорона здоров'я</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="yurid">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="../public/images/pravnicka.jpg" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h4>ЮРИДИЧНИЙ ФАКУЛЬТЕТ</h4>
+                            <p>1. Право</p>
+                            <p>2. Право - лінгвістика справа та геотехніка</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="prirod">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="../public/images/prirod.png" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h4>ФАКУЛЬТЕТ ПРИРОДНИЧИХ НАУК</h4>
+                            <p>1. Біологія</p>
+                            <p>2. Загальна екологія та екологія людини і населення</p>
+                            <p>3. Фізика</p>
+                            <p>4. Географія</p>
+                            <p>5. Хімія</p>
+                            <p>6. Математика</p>
+                            <p>7. Економічна і фінансова математика</p>
+                            <p>8. Інформатика</p>
+                            <p>9. Прикладна інформатика</p>
+                            <p>10. Прикладна математика</p>
+                            <h4>Акредитовані навчальні програми за двома спеціальностями</h4>
+                            <p>11. Біологія - географія</p>
+                            <p>12. Біологія - хімія</p>
+                            <p>13. Біологія - інформатика</p>
+                            <p>14. Фізика - біологія</p>
+                            <p>15. Фізика - Географія</p>
+                            <p>16. Фізика - хімія</p>
+                            <p>17. Фізика - інформатика</p>
+                            <p>18. Географія - інформатика</p>
+                            <p>19. Хімія - географія</p>
+                            <p>20. Хімія - інформатика</p>
+                            <p>21. Математика - біологія</p>
+                            <p>22. Математика - Фізика</p>
+                            <p>23. Математика - географія</p>
+                            <p>24. Математика - хімія</p>
+                            <p>25. Математика - інформатика</p>
+                            <h4>Акредитовані навчальні програми за двома спеціальностями - природничі і суспільні науки</h4>
+                            <p>26. Біологія - психологія</p>
+                            <p>27. Географія - філософія</p>
+                            <p>28. Географія - психологія</p>
+                            <p>29. Математика - психологія</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="upravl">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="../public/images/verejna.JPG" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                        <h4>ФАКУЛЬТЕТ ДЕРЖАВНОГО УПРАВЛІННЯ</h4>
+                        <p>1. Державне управління</p>
+                        <p>2. Європейське державне управління</p>
+                        <p>3. Державне управління</p>  
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="filosof">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="../public/images/filozoficka.JPG" alt="graphic" class="w-50 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h4>ФІЛОСОФСЬКИЙ ФАКУЛЬТЕТ</h4>
+                            <p>1. Психологія</p>
+                            <p>2. Британські і американські студії</p>
+                            <p>3. Філософія</p>
+                            <p>4. Соціальна робота</p>
+                            <p>5. Англійська мова для європейських інститутів та економіки</p>
+                            <p>6. Англійська і французька мова для європейських інститутів та економіки</p>
+                            <p>7. Англійська і німецька мова для європейських інститутів та економіки</p>
+                            <p>8. Гендерні студії і культура</p>
+                            <p>9. Масмедійні студії</p>
+                            <p>10. Політологія</p>
+                            <p>11. Прикладна етика</p>
+                            <p>12. Історія</p>
+                            <p>13. Словацька мова і література – філософія</p>
+                            <p>14. Словацька мова і література – британські і американські студії</p>
+                            <p>15. Словацька мова і література – німецька мова і література</p>
+                            <p>16. Британські й американські студії – філософія</p>
+                            <p>17. Британські й американські студії – німецька мова і література</p>
+                            <p>18. Німецька мова і література- філософія</p>
+                            <p>19. Британські й американські студії – математика</p>
+                            <p>20. Британські й американські студії – географія</p>
+                            <p>21. Британські й американські студії – біологія</p>
+                            <p>22. Британські й американські студії – інформатика</p>
+                            <p>23. Словацька мова і література – географія</p>
+                            <p>24. Словацька мова і література – біологія</p>
+                            <p>25. Словацька мова і література – математика</p>
+                            <p>26. Словацька мова і література – інформатика</p>
+                            <p>27. Прикладна етика – німецька мова і література</p>
+                            <p>28. Прикладна етика – філософія</p>
+                            <p>29. Прикладна етика – словацька мова і література</p>
+                            <p>30. Прикладна етика - географія</p>
+                            <p>31. Історія – Географія</p>
+                            <p>32. Історія – Філософія</p>
+                            <p>33. Історія – прикладна етика</p>
+                            <p>34. Історія – Британські і американські студії</p>
+                            <p>35. Історія – Словацька мова і література</p>
+                            <p>36. Історія – Німецька мова і література</p>
+                            <p>37. Латинська мова і література – Британські й американські студії</p>
+                            <p>38. Латинська мова і література - Німецька мова і література</p>
+                            <p>39. Латинська мова і література - Словацька мова і література</p>
+                            <p>40. Латинська мова і література – історія</p>
+                            <p>41. Латинська мова і література – філософія</p>
+                            <p>42. Латинська мова і література – прикладна етика</p>
+                            <p>43. Німецька мова і література – географія</p>
+                            <p>44. Німецька мова і література – інформатика</p>
+                            <p>45. Німецька мова і література – психологія*</p>
+                            <p>46. Британські і американські студії – психологія*</p>
+                            <p>47. Словацька мова і література – психологія*</p>
+                            <p>48. Філософія – психологія*</p>
+                            <p>49. Прикладна етика – психологія*</p>
+                            <p>50. Історія – психологія*</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sport">
+                    <div class="d-flex flex-column flex-lg-row">                        
+                        <img src="../public/images/tv.jpg" alt="graphic" class="w-50 col-sm-w-25 img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h4>ІНСТИТУТ ФІЗИЧНОГО ВИХОВАННЯ І СПОРТУ</h4>
+                           	<p>1. Спорт і відпочинок</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
     </div>
 
     <div class="section light-bg">
 
         <div class="container">
+            <div class="pb-5"><h3>Що нам потрібно для поступлення?</h3></div>
+            
             <div class="row">
+                
                 <div class="col-md-8 d-flex align-items-center">
+                    
                     <ul class="list-unstyled ui-steps">
                         <li class="media">
                             <div class="circle-icon mr-4">1</div>
                             <div class="media-body">
-                                <h5>Create an Account</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem </p>
+                                <h5>Ваше рішення</h5>
+                                <p>Ми вас проконсультуємо і вирішимо, який заклад і факультет для вас найкращий.</p>
                             </div>
                         </li>
                         <li class="media my-4">
                             <div class="circle-icon mr-4">2</div>
                             <div class="media-body">
-                                <h5>Share with friends</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem eveniet</p>
+                                <h5>Подача документів нам</h5>
+                                <p>Ми від вас потребуємо тільки документи за останні роки навчання, і довіреність з якою ми можемо вирішувати питання в Словацьких урядах, навчальних закладах і т.д</p>
                             </div>
                         </li>
                         <li class="media">
                             <div class="circle-icon mr-4">3</div>
                             <div class="media-body">
-                                <h5>Enjoy your life</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem </p>
+                                <h5>Ми все зробимо за вас!</h5>
+                                <p>Всю роботу з документами ми зробимо за вас. Переклади, нострифікація, апостилювання, заселення в гуртожиток, побит(ПМЖ)</p>
                             </div>
                         </li>
                     </ul>
-                </div>
-                <div class="col-md-4">
-                    <img src="../public/images/iphonex.png" alt="iphone" class="img-fluid">
                 </div>
 
             </div>
@@ -286,27 +549,27 @@
         <div class="container">
             <div class="section-title">
                 <small>TESTIMONIALS</small>
-                <h3>What our Customers Says</h3>
+                <h3>Відгуки</h3>
             </div>
 
             <div class="testimonials owl-carousel">
-                <div class="testimonials-single">
-                    <img src="../public/images/client.png" alt="client" class="client-img">
+                {{!-- <div class="testimonials-single">
+                    <img src="../public/images/vika.jpg" alt="client" class="client-img">
                     <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
+                    <h5 class="mt-4 mb-2">Вікторія Кіш</h5>
                     <p class="text-primary">United States</p>
                 </div>
                 <div class="testimonials-single">
-                    <img src="../public/images/client.png" alt="client" class="client-img">
+                    <img src="../public/images/vika.jpg" alt="client" class="client-img">
                     <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
+                    <h5 class="mt-4 mb-2">Вікторія Кіш</h5>
                     <p class="text-primary">United States</p>
-                </div>
+                </div> --}}
                 <div class="testimonials-single">
-                    <img src="../public/images/client.png" alt="client" class="client-img">
-                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-                    <p class="text-primary">United States</p>
+                    <img src="../public/images/vika.jpg" alt="client" class="client-img">
+                    <blockquote class="blockquote">Поступлення в Словаччину був найкращим моїм вибором, тому що навчання тут і навчання в Україні незрівняється.</blockquote>
+                    <h5 class="mt-4 mb-2">Вікторія Кіш</h5>
+                    <p class="text-primary">Виноградів</p>
                 </div>
             </div>
 
@@ -319,14 +582,13 @@
         <div class="container">
             <div class="section-title">
                 <small>GALLERY</small>
-                <h3>App Screenshots</h3>
+                <h3>Фото університетів</h3>
             </div>
 
             <div class="img-gallery owl-carousel owl-theme">
-                <img src="../public/images/screen1.jpg" alt="image">
-                <img src="../public/images/screen2.jpg" alt="image">
-                <img src="../public/images/screen3.jpg" alt="image">
-                <img src="../public/images/screen1.jpg" alt="image">
+                <img src="../public/images/upjs.jpg" alt="image">
+                <img src="../public/images/tuke_foto_s.jpg" alt="image">
+                <img src="../public/images/kniznica_tuke.png" alt="image">
             </div>
 
         </div>
@@ -334,91 +596,26 @@
     </div>
 
 
-
-
-    <div class="section" id="pricing">
-        <div class="container">
-            <div class="section-title">
-                <small>PRICING</small>
-                <h3>Upgrade to Pro</h3>
-            </div>
-
-            <div class="card-deck">
-                <div class="card pricing">
-                    <div class="card-head">
-                        <small class="text-primary">PERSONAL</small>
-                        <span class="price">$14<sub>/m</sub></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <div class="list-group-item">10 Projects</div>
-                        <div class="list-group-item">5 GB Storage</div>
-                        <div class="list-group-item">Basic Support</div>
-                        <div class="list-group-item"><del>Collaboration</del></div>
-                        <div class="list-group-item"><del>Reports and analytics</del></div>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
-                    </div>
-                </div>
-                <div class="card pricing popular">
-                    <div class="card-head">
-                        <small class="text-primary">FOR TEAMS</small>
-                        <span class="price">$29<sub>/m</sub></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <div class="list-group-item">Unlimited Projects</div>
-                        <div class="list-group-item">100 GB Storage</div>
-                        <div class="list-group-item">Priority Support</div>
-                        <div class="list-group-item">Collaboration</div>
-                        <div class="list-group-item">Reports and analytics</div>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
-                    </div>
-                </div>
-                <div class="card pricing">
-                    <div class="card-head">
-                        <small class="text-primary">ENTERPRISE</small>
-                        <span class="price">$249<sub>/m</sub></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <div class="list-group-item">Unlimited Projects</div>
-                        <div class="list-group-item">Unlimited Storage</div>
-                        <div class="list-group-item">Collaboration</div>
-                        <div class="list-group-item">Reports and analytics</div>
-                        <div class="list-group-item">Web hooks</div>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <div class="section pt-0">
+    <div class="section pt-0" id="faq">
         <div class="container">
             <div class="section-title">
                 <small>FAQ</small>
-                <h3>Frequently Asked Questions</h3>
+                <h3>Часто запитувані питання</h3>
             </div>
 
             <div class="row pt-4">
                 <div class="col-md-6">
-                    <h4 class="mb-3">Can I try before I buy?</h4>
-                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. </p>
-                    <h4 class="mb-3">What payment methods do you accept?</h4>
-                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. </p>
+                    <h4 class="mb-3">Чому навчання безкоштовне?</h4>
+                    <p class="light-font mb-5">Словацький уряд затвердив, що навчання в Словаччині на словацькій мові буде безкоштовне(але на англійській платне).</p>
+                    <h4 class="mb-3">Який шанс що я поступлю?</h4>
+                    <p class="light-font mb-5">Поступити в ВУЗ Словаччини дуже легко, важче протриматися. Вірогідність прийняття прирівнюється до 90%.</p>
 
                 </div>
                 <div class="col-md-6">
-                    <h4 class="mb-3">Can I change my plan later?</h4>
-                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. </p>
-                    <h4 class="mb-3">Do you have a contract?</h4>
-                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. </p>
+                    <h4 class="mb-3">Чи реально нема вступних іспитів?</h4>
+                    <p class="light-font mb-5">Так, на більшість факультетів нема вступних іспитів, і приймальна коміссія опирається на атестат абітурієнта.</p>
+                    <h4 class="mb-3">Чи потрібно знати відразу Словацьку мову?</h4>
+                    <p class="light-font mb-5">При поступленні, словацьку зовсім непотрібно знати, тому що університети пропонують навіть курси безкоштовної словацької під час літа.</p>
 
                 </div>
             </div>
@@ -428,19 +625,16 @@
  
 
 
-    <div class="section bg-gradient">
-        <div class="container">
-            <div class="call-to-action">
-
-                <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
-                <h2>Download Anywhere</h2>
-                <p class="tagline">Available for all major mobile and desktop platforms. Rapidiously visualize optimal ROI rather than enterprise-wide methods of empowerment. </p>
-                <div class="my-4">
-
-                    <a href="#" class="btn btn-light"><img src="../public/images/appleicon.png" alt="icon"> App Store</a>
-                    <a href="#" class="btn btn-light"><img src="../public/images/playicon.png" alt="icon"> Google play</a>
+    <div class="section">
+        <div class="bg-opacity">
+            <div class="parallax-window " data-parallax="scroll" data-image-src="../public/images/diploma.jpg">
+                <div class="container">
+                    <div class="call-to-action">
+                        <h3 class="opacitytext text-center">Якщо зацікавились, або виникли деякі запитання, залиште нам свої дані, ми вас проконсультуємо.</h3>   
+                        </div>
+                       </div>
+                    </div>
                 </div>
-                <p class="text-primary"><small><i>*Works on iOS 10.0.5+, Android Kitkat and above. </i></small></p>
             </div>
         </div>
 
@@ -450,31 +644,30 @@
         <div class="container">
             <div class="wrapperr animated bounceInLeft">
               <div class="contact">
-                <h3>Email Us</h3>
-                
+                <h4>Залишити дані</h4>
                 <form method="POST" action="send">
                   <p>
-                    <label>Name</label>
+                    <label>Імя</label>
                     <input type="text" name="name">
                   </p>
                   <p>
-                    <label>Company</label>
+                    <label>Місто</label>
                     <input type="text" name="company">
                   </p>
                   <p>
-                    <label>Email Address</label>
+                    <label>Електронна пошта</label>
                     <input type="email" name="email">
                   </p>
                   <p>
-                    <label>Phone Number</label>
+                    <label>Номер телефону</label>
                     <input type="text" name="phone">
                   </p>
                   <p class="full">
-                    <label>Message</label>
+                    <label>Запитання?</label>
                     <textarea name="message" rows="5"></textarea>
                   </p>
                   <p class="full">
-                    <button type="submit">Submit</button>
+                    <button type="submit">Відіслати</button>
                   </p>
                   {{msg}}
                 </form>
@@ -484,10 +677,11 @@
 
     </div>
     <footer class="my-5 text-center">
-       
+            <p href="">Developed by <a href="https://www.instagram.com/dr.erchi/">dr.erchi</a></p>
     </footer>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../public/js/parallax.js"></script>
     <script src="../public/js/jquery-3.2.1.min.js"></script>
     <script src="../public/js/bootstrap.bundle.min.js"></script>
     <script src="../public/js/owl.carousel.min.js"></script>
